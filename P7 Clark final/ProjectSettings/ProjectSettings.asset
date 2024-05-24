@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 8c1bfe142dc638f4996e69f41a62cc95
+  productGUID: ff3854559ce3b59419f8cd8e2d7ab256
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -95,7 +95,7 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
-  gpuSkinning: 1
+  gpuSkinning: 0
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -246,7 +246,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
-  clonedFromGUID: cf9eead7fc96a42198beb2c24e418479
+  clonedFromGUID: f435ec5a0d8f64af890b32a23289bc59
   templatePackageId: 
   templateDefaultScene: 
   useCustomMainManifest: 0
@@ -403,8 +403,6 @@ PlayerSettings:
     m_GraphicsJobs: 1
   - m_BuildTarget: LuminSupport
     m_GraphicsJobs: 0
-  - m_BuildTarget: CloudRendering
-    m_GraphicsJobs: 1
   - m_BuildTarget: AndroidPlayer
     m_GraphicsJobs: 0
   - m_BuildTarget: WebGLSupport
@@ -421,6 +419,9 @@ PlayerSettings:
   - m_BuildTarget: WindowsStandaloneSupport
     m_APIs: 02000000
     m_Automatic: 1
+  - m_BuildTarget: LinuxStandaloneSupport
+    m_APIs: 15000000
+    m_Automatic: 0
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -715,7 +716,6 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
     EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2
-    GameCoreScarlett: UNITY_POST_PROCESSING_STACK_V2
     GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2
     LinuxHeadlessSimulation: UNITY_POST_PROCESSING_STACK_V2
     Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
@@ -744,6 +744,7 @@ PlayerSettings:
     PS5: 1
     QNX: 1
     Stadia: 1
+    VisionOS: 1
     WebGL: 1
     Windows Store Apps: 1
     XboxOne: 1
@@ -842,7 +843,7 @@ PlayerSettings:
   cloudProjectId: f19466fc-9120-45eb-92bb-b9aaff8f312d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: P7 Clark final
+  projectName: Platformer3DClient
   organizationId: coolguyclarkrr
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
