@@ -7,6 +7,6 @@ public class MainMenu : MonoBehaviour
 {
    public void StartGame()
     {
-        SceneManager.LoadScene("RestLess Adventures");
+        SceneManager.LoadScene("Restless Adventures 1");
     }
 }
